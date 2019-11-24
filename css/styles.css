@@ -585,6 +585,7 @@ input[type="search"]::-webkit-search-results-decoration {
       display: inline-block;
       padding-left: 35%; }
 
+/*_____________________________________S-E-C-O-N-D__S-E-C-T-I-O-N_________________________________________*/
 .plan {
   background-color: #333333;
   border-top: 1px solid gray;
@@ -637,3 +638,67 @@ input[type="search"]::-webkit-search-results-decoration {
     margin: 3%;
     margin-bottom: 6%;
     width: 300px; }
+
+/*__________________________________________T-H-I-R-D___S-E-C-T-I-O-N__________________________________*/
+.places {
+  color: #fff; }
+  .places__place {
+    background-image: url(/img/bg_3.png);
+    min-height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .places__container {
+    min-height: 700px;
+    padding-top: 228px; }
+  .places__place--second {
+    background-image: url(/img/bg_4.png);
+    min-height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .places__about {
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 540px;
+    height: 370px;
+    padding: 30px 28px; }
+  .places__about--right {
+    background-color: rgba(0, 0, 0, 0.9);
+    width: 540px;
+    height: 370px;
+    padding: 30px 28px;
+    margin-left: 568px; }
+  .places__title {
+    font-size: 2rem;
+    letter-spacing: 2px;
+    color: #e8e8e8;
+    line-height: 2.6rem;
+    font-weight: 400; }
+  .places__subtitle {
+    font-size: 2rem;
+    color: #fff;
+    line-height: 2.6rem; }
+  .places__text {
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    color: #e8e8e8; }
+  .places__btn {
+    width: 226px;
+    height: 58px;
+    background-color: #5474fd;
+    letter-spacing: 1px;
+    margin-top: 24px;
+    border: none;
+    font-family: 'Aleo', 'Times New Roman', serif;
+    font-size: 1.6rem;
+    color: #fff;
+    -webkit-transition: all .4s ease-in;
+    -o-transition: all .4s ease-in;
+    transition: all .4s ease-in; }
+    .places__btn:hover, .places__btn:focus, .places__btn:active {
+      -webkit-box-shadow: 0px 0px 10px 5px #5474fd;
+      box-shadow: 0px 0px 10px 5px #5474fd; }
+    .places__btn a {
+      text-decoration: none; }
+
+/*________________________________________L-A-S-T___S-E-C-T-I-O-N____________________________________*/
