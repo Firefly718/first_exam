@@ -185,9 +185,10 @@ input[type="search"]::-webkit-search-results-decoration { display: none; }
     &__title {
         margin: 0;
         font-family: 'Aleo', 'Times New Roman', serif;
+        color: #fff;
         font-size: 3.6rem;
         font-weight: 400;
-        padding: 75px 20px 55px 20px;
+        padding: 75px 20px 55px 0px;
     }
     &__text {
         font-size: 1.6rem;
@@ -346,5 +347,91 @@ input[type="search"]::-webkit-search-results-decoration { display: none; }
     }
 }
 /*________________________________________L-A-S-T___S-E-C-T-I-O-N____________________________________*/
-// h736
-// h-footer 274
+.view {
+    background-image: url(/img/bg_5.png);
+    @include bgCenter;
+    min-height: 736px;
+    &__card {
+        width: 100%;
+        height: 282px;
+        background-color: #333;
+    }
+    &__title {
+        margin: 0;
+        font-family: 'Aleo', 'Times New Roman', serif;
+        color: #fff;
+        font-size: 3.6rem;
+        font-weight: 400;
+        padding: 120px 20px 90px 20px;
+        text-align: center;
+    }
+    &__img {
+        float: left;
+        margin-right: 22px;
+    }
+    &__name {
+        font-size: 2rem;
+        color: #fefefe;
+        display: block;
+        padding: 50px 10px;
+    }
+    &__quote {
+        font-size: 1.6rem;
+        padding-bottom: 30px;
+        padding-right: 38px;
+        margin: 0;
+        line-height: 2.6rem;
+        color: #fefefe;
+    }
+    .fas {
+        float: left;
+        color: $brand-color;
+        padding-right: 14px;
+    }
+}
+/*_______________________________________________F-O-O-T-E-R_______________________________________________*/
+footer {
+    min-height: 274px;
+    background-color: #232323;
+    .contacts {
+        height: 100px;
+        text-align: center;
+        margin: 0 auto;
+        &__brand {
+            display: block;
+            font-size: 2.4rem;
+            line-height: 2.6rem;
+            font-weight: 700;
+            letter-spacing: 3px;
+            color: #fff;
+            text-decoration: none;
+            padding: 120px 20px 10px 20px;
+        }
+        span {
+            font-size: 1.6rem;
+            color: #fff;
+            letter-spacing: 2px;
+        }
+        &__links {
+            padding-left: 0;
+            margin: 0;
+            list-style: none;
+            color: #fff;
+            display: flex;
+            justify-content: space-around;
+            padding-top: 22px;
+            padding-bottom: 45px;
+            margin: 0 470px;
+            font-size: 1.2rem;
+        }
+        .fab {
+            @include hover {
+                transform: scale(2.5);
+            }
+        }
+        .active {
+            color: $brand-color;
+        }
+    }
+}
+// h-bot22
